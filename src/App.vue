@@ -57,8 +57,8 @@ export default {
   padding: 0;
 }
 #app {
-  height: 942px;
-  width: 1920px;
+  height: 100vh;
+  width: 100vw;
   background-color: rgb(243, 244, 246);
 }
 </style>

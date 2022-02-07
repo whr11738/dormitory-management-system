@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <backGround></backGround>
     <myMenu></myMenu>
     <top></top>
@@ -21,4 +21,12 @@ export default {
 </script>
 
 <style scoped>
+.main{
+  position: absolute;
+  height: 942px;
+  width: 1920px;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%,-50%,0) scale(125%,125%);
+}
 </style>

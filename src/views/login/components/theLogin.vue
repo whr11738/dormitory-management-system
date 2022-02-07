@@ -247,9 +247,8 @@ export default {
 <style scoped>
 /* 背景 */
 .backGound{
-  /* background-color: rgb(45, 58, 75); */
-  height: 942px;
-  width: 1920px;
+  height: 100vh;
+  width: 100vw;
   background-color: rgb(45, 58, 75);
 }
 /* 登录区域盒子 */
@@ -258,8 +257,8 @@ export default {
   width: 560px;
   height: 387px;
   left: 50%;
-  transform: translateX(-50%);
-  top: 120px;
+  top: 40%;
+  transform: translate3d(-50%,-50%,0) scale(125%,125%);
 }
 /* 标题字体 */
 .title{
