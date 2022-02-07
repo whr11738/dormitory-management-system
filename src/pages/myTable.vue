@@ -1,7 +1,7 @@
 <template>
   <div>
       <!-- 表单 -->
-      <el-dialog :visible.sync="dialogFormVisible" v-if="dialogFormVisible">
+      <el-dialog :visible.sync="dialogFormVisible" v-if="dialogFormVisible" append-to-body>
         <el-form :model="form" :inline="true" :rules="rules">
           
           <!-- 表单内容 -->
@@ -37,16 +37,16 @@
 
           <el-form-item label="宿舍楼" :label-width="'120px'">
             <el-select v-model="form.don" placeholder="请选择宿舍楼">
-              <el-option label="15栋" value="8栋"></el-option>
-              <el-option label="16栋" value="9栋"></el-option>
-              <el-option label="17栋" value="10栋"></el-option>
-              <el-option label="18栋" value="11栋"></el-option>
-              <el-option label="15栋" value="12栋"></el-option>
-              <el-option label="16栋" value="13栋"></el-option>
-              <el-option label="17栋" value="14栋"></el-option>
-              <el-option label="18栋" value="15栋"></el-option>
-              <el-option label="17栋" value="18栋"></el-option>
-              <el-option label="18栋" value="21栋"></el-option>
+              <el-option label="8栋" value="8栋"></el-option>
+              <el-option label="9栋" value="9栋"></el-option>
+              <el-option label="10栋" value="10栋"></el-option>
+              <el-option label="11栋" value="11栋"></el-option>
+              <el-option label="12栋" value="12栋"></el-option>
+              <el-option label="13栋" value="13栋"></el-option>
+              <el-option label="14栋" value="14栋"></el-option>
+              <el-option label="15栋" value="15栋"></el-option>
+              <el-option label="18栋" value="18栋"></el-option>
+              <el-option label="21栋" value="21栋"></el-option>
             </el-select>
           </el-form-item>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="manager">
     <!-- 表单 -->
-    <el-dialog :visible.sync="dialogFormVisible" v-if="dialogFormVisible">
+    <el-dialog :visible.sync="dialogFormVisible" v-if="dialogFormVisible" append-to-body>
       <el-form :model="form" :rules="rules">
 
         <!-- 表单内容 -->
