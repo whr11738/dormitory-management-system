@@ -45,8 +45,8 @@ export default {
   },
   mounted(){
     this.getData(this.globalVariable.inLocal)
-    // this.$router.push({path:"/login"})
-    // this.loginTip()
+    this.$router.push({path:"/login"})
+    this.loginTip()
   }
 }
 </script>
